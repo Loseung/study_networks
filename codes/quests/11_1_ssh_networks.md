@@ -74,6 +74,8 @@ EOF
 
 ```shell
 #nano
+
+#!/bin/bash
 path=~/quests/quests_lhs/network.log
 
 total_c=$(cat "$path" | wc -l)
